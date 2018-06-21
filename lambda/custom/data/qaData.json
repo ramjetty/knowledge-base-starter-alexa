@@ -1,0 +1,42 @@
+[
+    {
+        "id": "question-one",
+        "questions": [
+            "What is question one?"
+        ],
+        "answer": "Question one is the first of five sample questions.",
+        "prompt": "You can also prompt users to ask another question. For example: 'What is question two'"
+    },
+    {
+        "id": "question-two",
+        "questions": [
+            "What is question two?"
+        ],
+        "answer": "Question two is the second of five sample questions.",
+        "prompt": "You can also prompt users to ask another question. For example: 'What is question three'"
+    },
+    {
+        "id": "question-three",
+        "questions": [
+            "What is question three?"
+        ],
+        "answer": "Question three is the third of five sample questions.",
+        "prompt": "You can also prompt users to ask another question. For example: 'What is question four'"
+    },
+    {
+        "id": "question-four",
+        "questions": [
+            "What is question four?"
+        ],
+        "answer": "Question four is the fourth of five sample questions.",
+        "prompt": "You can also prompt users to ask another question. For example: 'What is question five'"
+    },
+    {
+        "id": "question-five",
+        "questions": [
+            "What is question five?"
+        ],
+        "answer": "Question five is the fifth of five sample questions.",
+        "prompt": "You can also prompt users to ask another question. For example: 'What is question one'"
+    }
+]

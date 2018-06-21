@@ -1,0 +1,79 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "knowledge base starter",
+            "types": [
+                {
+                    "name": "questionValues",
+                    "values": [
+                        {
+                            "id": "question-one",
+                            "name": {
+                                "value": "what is question one",
+                                "synonyms": [
+                                    "about question one",
+                                    "question one"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "question-two",
+                            "name": {
+                                "value": "what is question two",
+                                "synonyms": []
+                            }
+                        },
+                        {
+                            "id": "question-three",
+                            "name": {
+                                "value": "what is question three",
+                                "synonyms": []
+                            }
+                        },
+                        {
+                            "id": "question-four",
+                            "name": {
+                                "value": "what is question four",
+                                "synonyms": []
+                            }
+                        },
+                        {
+                            "id": "question-five",
+                            "name": {
+                                "value": "what is question five",
+                                "synonyms": []
+                            }
+                        }
+                    ]
+                }
+            ],
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "QuestionIntent",
+                    "slots": [
+                        {
+                            "name": "question",
+                            "type": "questionValues",
+                            "samples": []
+                        }
+                    ],
+                    "samples": [
+                        "{question}"
+                    ]
+                }
+            ]
+        }
+    }
+}
